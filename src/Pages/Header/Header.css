@@ -1,0 +1,76 @@
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.book-now {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.book-now button {
+    background-color: #C18D58;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 18px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    word-spacing: 8px;
+    margin-top: -50px;
+    position: sticky;
+    top: 0;
+
+}
+.bottom-text {
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: normal;
+}
+
+.book-now button:hover {
+    background-color: #21253E;
+    color: white;
+    transition: 0.5s;
+}
+
+.header-bottom {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.single-menu {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #21253E;
+
+}
+
+.header-bottom-wrap {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.active {
+    color: #F3B16A;
+    border-bottom: 2px solid #F3B16A;
+
+}
+
+.single-menu:hover {
+    color: #F3B16A;
+    border-bottom: 2px solid #F3B16A;
+    transition: 0.5s;
+}
